@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.getgovinbox/govinbox",
+  "title": "GovInbox",
+  "description": "Daily watch on U.S. federal set-aside contract opportunities for government contractors. Requires a GovInbox subscription: connect with OAuth 2.1 or a bearer access token. Setup: https://getgovinbox.com/for-ai",
+  "version": "1.0.0",
+  "websiteUrl": "https://getgovinbox.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.getgovinbox.com/mcp"
+    }
+  ]
+}
